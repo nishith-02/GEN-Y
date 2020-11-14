@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>GEN-Y</title>
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="geny.css">
+	</head>
+	<body>
+		<div class="heading">
+			<h1>GEN-Y</h1>
+		</div>
+		<! Progress bar and timer>
+		<div class="progress_bar_and_timer">
+			<div class="number_of_questions">
+				<h4>1/20 Questions</h4>
+				<div class="progress_bar">
+					<div class="number_of_questions_attempted"></div>
+				</div>
+			</div>
+			<div class="timer">
+				<h2>09:54</h2>
+			</div>
+		</div>
+		<! List of question Numbers>
+		<div class="question_indicator">
+			<div class="questions" id="question1_color"><h3>1</h3></div>
+			<div class="questions"><h3>2</h3></div>
+			<div class="questions"><h3>3</h3></div>
+			<div class="questions"><h3>4</h3></div>
+			<div class="questions"><h3>5</h3></div>
+			<div class="questions"><h3>6</h3></div>
+			<div class="questions"><h3>7</h3></div>
+			<div class="questions"><h3>8</h3></div>
+			<div class="questions"><h3>9</h3></div>
+			<div class="questions"><h3>10</h3></div>
+			<div class="questions"><h3>11</h3></div>
+			<div class="questions"><h3>12</h3></div>
+			<div class="questions"><h3>13</h3></div>
+			<div class="questions"><h3>14</h3></div>
+			<div class="questions"><h3>15</h3></div>
+		</div>
+		<! Question number 1.....>
+		<div class="question_number_1">
+			<h1>Question 1</h1><br>
+			<div class="conetent_of the_question">
+				<p><b>Lorem, ipsum dolor sit amet consectetur adipisicing elit.Tenetur odio,modi vel corrupti eveniet tempore deleniti id nobis reprehendrit quasi, vitae ratione numqam ipsum nihil amet voluptates,nemo hic velit?</p></b>
+			</div>
+		<! Options of the question>
+		</div>
+		<div class="options">
+			<div class="option" id="question_1_and_2">
+				<div class="optiona"><b>A.</b> Lorem ipsum dolor sint.</div>
+				<div class="optiona"><b>B.</b> Lorem ipsum dolor sint.</div>
+			</div>
+			<div class="option" id="question_3_and_4">
+				<div class="optiona"><b>C.</b> Lorem ipsum dolor sint.</div>
+				<div class="optiona"><b>D.</b> Lorem ipsum dolor sint.</div>
+			</div>
+		</div>
+		<! Last part of HTML- Buttons>
+		<div class="buttons">
+			<div class="button"><h3><b>SKIP</h3></b></div>
+			<div class="button"><h3><b>REMARK</h3></b></div>
+			<div class="button"><h3><b>NEXT</h3></b></div>
+		</div>
+	</body>
+</html>
